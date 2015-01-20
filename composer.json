@@ -1,0 +1,7 @@
+{
+    "name": "plivo/plivo-php",
+    "description": "Plivo PHP Helper Library with Composer Support",
+    "autoload": {
+         "classmap": ["plivo.php"]
+    }    
+}
