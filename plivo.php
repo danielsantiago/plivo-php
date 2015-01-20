@@ -7,9 +7,9 @@ if ((@include 'HTTP/Request2.php') == 'OK') {
     define("PLIVO_USE_CURL", TRUE);
 }
 
+namespace Plivo {
 
-
-class PlivoError extends Exception { }
+class PlivoError extends \Exception { }
 
 
 function validate_signature($uri, $post_params=array(), $signature, $auth_token) {
@@ -948,6 +948,6 @@ class DTMF extends Element {
     }
 }
 
-
+}
 
 ?>
